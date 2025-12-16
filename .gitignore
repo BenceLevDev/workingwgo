@@ -1,18 +1,22 @@
-# Go build binaries
+# Build output
 *.exe
-*.exe~
-*.dll
-
-# Test binaries
-*.test
-
-# Output of coverage tool
 *.out
+*.a
 
-# Dependency directories (ha nem verziókezeled a vendort)
+# Vendor folder (opcionális, ha nem verziózod)
 vendor/
 
-# IDE/editor files
-.idea/
+# IDE / Editor
 .vscode/
-*.swp
+.idea/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment files
+.env
+
+# OS specific files
+.DS_Store
+Thumbs.db
