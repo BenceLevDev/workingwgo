@@ -1,0 +1,18 @@
+# Go build binaries
+*.exe
+*.exe~
+*.dll
+
+# Test binaries
+*.test
+
+# Output of coverage tool
+*.out
+
+# Dependency directories (ha nem verziókezeled a vendort)
+vendor/
+
+# IDE/editor files
+.idea/
+.vscode/
+*.swp
